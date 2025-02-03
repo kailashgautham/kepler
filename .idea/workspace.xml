@@ -5,45 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a866a388-8979-4c7e-8903-ee00faafcfae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.writing.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/manifest.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/src/main/java/com/example/restservice/Greeting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/src/main/java/com/example/restservice/GreetingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/src/main/java/com/example/restservice/RestServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete/src/test/java/com/example/restservice/GreetingControllerTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial/src/main/java/com/example/restservice/RestServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial/src/test/java/com/example/restservice/RestServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kailashgautham/kepler/HelloControllerITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kailashgautham/kepler/HelloControllerITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +168,7 @@
       <updated>1737550408971</updated>
       <workItem from="1737550410405" duration="620000" />
       <workItem from="1738562470390" duration="3447000" />
-      <workItem from="1738566462982" duration="87000" />
+      <workItem from="1738566462982" duration="1474000" />
     </task>
     <servers />
   </component>
