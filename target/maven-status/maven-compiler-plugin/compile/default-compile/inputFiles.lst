@@ -1,2 +1,6 @@
 /Users/kailashgautham/Developer/Kepler/src/main/java/com/kailashgautham/kepler/HelloController.java
 /Users/kailashgautham/Developer/Kepler/src/main/java/com/kailashgautham/kepler/KeplerApplication.java
+/Users/kailashgautham/Developer/Kepler/src/main/java/com/kailashgautham/kepler/Trade/Trade.java
+/Users/kailashgautham/Developer/Kepler/src/main/java/com/kailashgautham/kepler/Trade/TradeController.java
+/Users/kailashgautham/Developer/Kepler/src/main/java/com/kailashgautham/kepler/Trade/TradeRepository.java
+/Users/kailashgautham/Developer/Kepler/src/main/java/com/kailashgautham/kepler/Trade/TradeService.java
