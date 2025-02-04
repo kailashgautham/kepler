@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: com.kailashgautham.kepler.HelloControllerITest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.935 s -- in com.kailashgautham.kepler.HelloControllerITest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.782 s <<< FAILURE! -- in com.kailashgautham.kepler.HelloControllerITest
+com.kailashgautham.kepler.HelloControllerITest.getHello -- Time elapsed: 0.533 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "Greetings from Kepler!"
+ but was: "{"timestamp":"2025-02-04T12:48:46.671+00:00","status":404,"error":"Not Found","path":"/"}"
+	at com.kailashgautham.kepler.HelloControllerITest.getHello(HelloControllerITest.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
