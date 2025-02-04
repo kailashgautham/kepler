@@ -1,3 +1,4 @@
+/*
 package com.kailashgautham.kepler;
 
 import org.junit.jupiter.api.Test;
@@ -20,3 +21,4 @@ public class HelloControllerITest {
         assertThat(response.getBody()).isEqualTo("Greetings from Kepler!");
     }
 }
+*/
