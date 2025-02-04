@@ -23,7 +23,7 @@ public class Trade {
 
     private OrderType orderType;
 
-    private Trade() {}
+    public Trade() {}
 
     public Trade(String symbol, Integer quantity, Double price, Date date, OrderType orderType) {
         this.symbol = symbol;
