@@ -1,5 +1,5 @@
 package com.kailashgautham.kepler.Trade;
 
-public class TradeRepository {
+import org.springframework.data.repository.CrudRepository;
 
-}
+public interface TradeRepository extends CrudRepository<Trade, Integer> {}
