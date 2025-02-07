@@ -20,11 +20,6 @@ public class DataFetchService {
     @Scheduled(fixedRate = 3000L)
     public void importMostRecentData() {
         System.out.println("Importing data...");
-        System.out.println(
-                this.webClient.get().uri("stock/symbol")
-                .retrieve()
-                        .bodyToMono()
-        );
     }
 
 }
