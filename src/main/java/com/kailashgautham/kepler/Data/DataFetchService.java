@@ -1,5 +1,6 @@
 package com.kailashgautham.kepler.Data;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
@@ -9,17 +10,13 @@ import reactor.core.publisher.Mono;
 @Service
 public class DataFetchService {
 
-    private final WebClient webClient;
-
-    @Value("${stockApi.url}")
-    private String stockApiUrl;
+    @Autowired
+    private WebClient webClient;
 
     @Value("${stockApi.key}")
     private String stockApiKey;
 
-    public DataFetchService(WebClient.Builder webClientBuilder) {
-        this.webClient = webClientBuilder.baseUrl(this.stockApiUrl).build();
-    }
+    public DataFetchService() {}
 
     @Scheduled(fixedRate = 3000L)
     public Mono<StockDataDTO> importMostRecentData() {
