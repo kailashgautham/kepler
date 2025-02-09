@@ -1,7 +1,9 @@
 package com.kailashgautham.kepler;
 
 import com.kailashgautham.kepler.Data.DataFetchService;
+import com.kailashgautham.kepler.Data.StockDataDTO;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -31,6 +33,9 @@ public class KeplerApplication {
 
 	@EventListener(ApplicationReadyEvent.class)
 	public void runDataFetcher() {
-		dataFetchService.importMostRecentData();
+		StockDataDTO stocks = dataFetchService.importMostRecentData()
+				.block();
+		System.out.println(stocks.getCount());
+
 	}
 }
