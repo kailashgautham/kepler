@@ -33,8 +33,7 @@ public class KeplerApplication {
 
 	@EventListener(ApplicationReadyEvent.class)
 	public void runDataFetcher() {
-		StockDataDTO stocks = dataFetchService.importMostRecentData()
-				.block();
+		StockDataDTO stocks = dataFetchService.importMostRecentData();
 		System.out.println(stocks.getCount());
 
 	}

@@ -19,16 +19,19 @@ public class DataFetchService {
     public DataFetchService() {}
 
     @Scheduled(fixedRate = 3000L)
-    public Mono<StockDataDTO> importMostRecentData() {
+    public StockDataDTO importMostRecentData() {
         System.out.println("Importing data...");
-        return webClient.get()
-                .uri(
-                        uriBuilder -> uriBuilder.path("/search")
-                        .queryParam("token", stockApiKey)
-                        .build()
-                )
-                .retrieve()
-                .bodyToMono(StockDataDTO.class);
+        StockDataDTO searchData = webClient.get()
+                    .uri(
+                            uriBuilder -> uriBuilder.path("/search")
+                            .queryParam("token", stockApiKey)
+                            .build()
+                    )
+                    .retrieve()
+                    .bodyToMono(StockDataDTO.class)
+                .block();
+        System.out.println(searchData.getCount());
+        return searchData;
     }
 
 }
